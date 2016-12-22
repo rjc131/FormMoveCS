@@ -162,12 +162,12 @@
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(113, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -204,7 +204,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(95, 145);
             this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
+            this.textBox2.PasswordChar = '$';
             this.textBox2.Size = new System.Drawing.Size(184, 20);
             this.textBox2.TabIndex = 6;
             // 
