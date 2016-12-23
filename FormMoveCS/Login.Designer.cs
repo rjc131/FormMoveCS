@@ -60,8 +60,9 @@
             this.panel1.Controls.Add(this.menuStrip1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(374, 56);
+            this.panel1.Size = new System.Drawing.Size(561, 86);
             this.panel1.TabIndex = 1;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
@@ -75,9 +76,10 @@
             this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label3.Location = new System.Drawing.Point(161, 9);
+            this.label3.Location = new System.Drawing.Point(242, 14);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 18);
+            this.label3.Size = new System.Drawing.Size(74, 27);
             this.label3.TabIndex = 3;
             this.label3.Text = "Login:";
             // 
@@ -85,13 +87,15 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.helpToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 32);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 51);
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(374, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(561, 35);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -105,7 +109,7 @@
             this.exitToolStripMenuItem,
             this.toolStripSeparator});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // registerStripMenuItem
@@ -115,40 +119,40 @@
             this.registerStripMenuItem.Name = "registerStripMenuItem";
             this.registerStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.R)));
-            this.registerStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.registerStripMenuItem.Size = new System.Drawing.Size(270, 30);
             this.registerStripMenuItem.Text = "Register";
             this.registerStripMenuItem.Click += new System.EventHandler(this.registerStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(186, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(267, 6);
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(270, 30);
             this.openToolStripMenuItem.Text = "News Letter";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(186, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(267, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(270, 30);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(186, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(267, 6);
             // 
             // helpToolStripMenuItem
             // 
@@ -156,18 +160,18 @@
             this.toolStripSeparator5,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(61, 29);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(113, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(156, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(159, 30);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -176,9 +180,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell Condensed", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(11, 92);
+            this.label1.Location = new System.Drawing.Point(16, 142);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 15);
+            this.label1.Size = new System.Drawing.Size(101, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "User Name:";
             // 
@@ -187,32 +192,36 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Rockwell Condensed", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label2.Location = new System.Drawing.Point(19, 145);
+            this.label2.Location = new System.Drawing.Point(28, 223);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 15);
+            this.label2.Size = new System.Drawing.Size(90, 24);
             this.label2.TabIndex = 4;
             this.label2.Text = "Password:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(95, 95);
+            this.textBox1.Location = new System.Drawing.Point(142, 146);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(184, 20);
+            this.textBox1.Size = new System.Drawing.Size(274, 26);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(95, 145);
+            this.textBox2.Location = new System.Drawing.Point(142, 223);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '$';
-            this.textBox2.Size = new System.Drawing.Size(184, 20);
+            this.textBox2.PasswordChar = '&';
+            this.textBox2.Size = new System.Drawing.Size(274, 26);
             this.textBox2.TabIndex = 6;
             // 
             // submit_Button
             // 
-            this.submit_Button.Location = new System.Drawing.Point(95, 236);
+            this.submit_Button.Location = new System.Drawing.Point(142, 363);
+            this.submit_Button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.submit_Button.Name = "submit_Button";
-            this.submit_Button.Size = new System.Drawing.Size(75, 23);
+            this.submit_Button.Size = new System.Drawing.Size(112, 35);
             this.submit_Button.TabIndex = 7;
             this.submit_Button.TabStop = false;
             this.submit_Button.Text = "Submit";
@@ -221,9 +230,10 @@
             // 
             // exit_Button
             // 
-            this.exit_Button.Location = new System.Drawing.Point(204, 236);
+            this.exit_Button.Location = new System.Drawing.Point(306, 363);
+            this.exit_Button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.exit_Button.Name = "exit_Button";
-            this.exit_Button.Size = new System.Drawing.Size(75, 23);
+            this.exit_Button.Size = new System.Drawing.Size(112, 35);
             this.exit_Button.TabIndex = 8;
             this.exit_Button.TabStop = false;
             this.exit_Button.Text = "&Exit";
@@ -233,9 +243,10 @@
             // passwordCharCheckBox
             // 
             this.passwordCharCheckBox.AutoSize = true;
-            this.passwordCharCheckBox.Location = new System.Drawing.Point(95, 190);
+            this.passwordCharCheckBox.Location = new System.Drawing.Point(142, 292);
+            this.passwordCharCheckBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.passwordCharCheckBox.Name = "passwordCharCheckBox";
-            this.passwordCharCheckBox.Size = new System.Drawing.Size(102, 17);
+            this.passwordCharCheckBox.Size = new System.Drawing.Size(148, 24);
             this.passwordCharCheckBox.TabIndex = 9;
             this.passwordCharCheckBox.Text = "Show Password";
             this.passwordCharCheckBox.UseVisualStyleBackColor = true;
@@ -244,10 +255,10 @@
             // Login
             // 
             this.AcceptButton = this.submit_Button;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.IndianRed;
-            this.ClientSize = new System.Drawing.Size(374, 281);
+            this.ClientSize = new System.Drawing.Size(561, 432);
             this.Controls.Add(this.passwordCharCheckBox);
             this.Controls.Add(this.exit_Button);
             this.Controls.Add(this.submit_Button);
@@ -258,6 +269,7 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
